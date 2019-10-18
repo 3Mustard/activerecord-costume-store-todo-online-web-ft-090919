@@ -2,7 +2,11 @@ class CreateCostumes < ActiveRecord::Migration
   
   def change 
     create_table :costumes do |c|
-      
+      c.string 
+      c.integer 
+      c.integer 
+      c.string 
+      c.timestamps
   end 
 
 end 
